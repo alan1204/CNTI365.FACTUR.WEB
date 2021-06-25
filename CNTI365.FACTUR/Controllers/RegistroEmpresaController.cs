@@ -6,9 +6,10 @@ using System.Web.Mvc;
 
 namespace CNTI365.FACTUR.Controllers
 {
-    public class HomeController : Controller
+    public class RegistroEmpresaController : Controller
     {
-        public ActionResult Index()
+        // GET: RegistroEmpresa
+        public ActionResult RegistroEmpresa()
         {
             return View();
         }
